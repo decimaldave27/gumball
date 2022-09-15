@@ -1,1 +1,1 @@
-# decimaldave27.gihub.io/gumball.github.io/home.html
+# decimaldave27.github.io/gumball.github.io/home.html
