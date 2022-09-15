@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+body {
+background-color:  #272227FF
+}
+</style>
+</head>
+<br>
+<br>
+<br>
+  <center>
+<h1>
+  <font color="blue">
+The DVD
+  </font>
+</h1>
+  </center>
+      <center>
+<body>
+    <head>
+    <meta charset=utf-8 />
+    <title>Your title</title>
+      
+    
+      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+      <script src="https://unpkg.com/video.js/dist/video.js"></script>
+      <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+       
+    </head>
+    <body>
+      <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+      data-setup='{}'>
+        <source src="https://e-6.mzzcloud.life/_v8/774772c416a3ff351bafd4488f80405d0250dc65009b47b5c68e6539cbb6023d0a89ad3d8ed8b8c42927db55d7b7d254a5fac908f347f3be05819cfb4d65ff67fcd5f8f38c41d22ae1b1048eae530099ec6c09c1d040f48e3ccbc1cd5ad5c0c6dddea5258da6041e776287d42022fd8aa060d16dcf8712a982cd43c428829bf8/playlist.m3u8" type="application/x-mpegURL">
+      </video>
+      
+    <script>
+    var player = videojs('my_video_1');
+    player.play();
+    </script>
+      
+    </body>
+    </center>
+</body>
+</html>
